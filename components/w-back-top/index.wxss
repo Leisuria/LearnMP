@@ -1,0 +1,20 @@
+/* components/w-back-top/index.wxss */
+.back-top{
+  position: fixed;
+  right: 30rpx;
+  bottom: 40rpx;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-top > image{
+  width: 50rpx;
+  height: 50rpx;
+  padding-bottom: 4rpx;
+}

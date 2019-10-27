@@ -1,0 +1,13 @@
+/* components/w-goods/index.wxss */
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  justify-content: space-between;
+  /* margin-top: 20rpx; */
+  background-color: #F7F6F7;
+}
+
+.goods > .item{
+  width: 49%;
+}

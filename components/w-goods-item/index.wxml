@@ -1,0 +1,17 @@
+<!--components/w-goos-item/index.wxml-->
+<view class="goods-item">
+  <view class="iamge-box">
+    <image class="image" src="{{item.show.img}}" mode="aspectFill"></image>
+  </view>
+
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <view class="other-fav">
+        <image class="icon" src="/assets/common/cfav.png"></image>
+        <text class="cfav">{{item.cfav}}</text>
+      </view>
+    </view>
+  </view>
+</view>

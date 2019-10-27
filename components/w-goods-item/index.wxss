@@ -1,0 +1,52 @@
+/* components/w-goos-item/index.wxss */
+.goods-item{
+  color: #2B1D30;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+}
+
+.iamge-box{
+  /* height: 480rpx; */
+  margin-bottom: 20rpx;
+  overflow: hidden;
+} 
+
+.image{
+  width: 100%;
+}
+
+.desc-info{
+  padding: 0 10rpx;
+}
+
+.desc-info .title{
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  margin-bottom: 8rpx;
+}
+
+.desc-info .info{
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info .price{
+  color: #FF699C;
+  font-weight: 600;
+}
+
+.info .icon{
+  width: 24rpx;
+  height: 24rpx;
+  padding: 0 5rpx 0 20rpx;
+}
+.info .cfav{
+  color: #B5ADB8;
+}
