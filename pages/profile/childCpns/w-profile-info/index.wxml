@@ -1,0 +1,14 @@
+<!--pages/profile/childCpns/w-profile-info/index.wxml-->
+<view class="myInfo">
+  <view class="avatar">
+    <image src="{{avatarUrl}}"></image>
+    <view class="nameInfo">
+      <button open-type="getUserInfo" bind:getuserinfo="getMyInfo" class="name">{{nickName}}</button>
+      <!-- <text class="name">{{nickName}}</text> -->
+      <view class="phone"><image class="phoneImg" src="/assets/common/country.png"/>{{country}}</view>
+    </view>
+  </view>
+  <view class="enterBtn">
+    <image src="/assets/common/right_arrow.png"></image>
+  </view>
+</view>

@@ -39,7 +39,7 @@
 
 .info .price{
   color: #FF699C;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .info .icon{

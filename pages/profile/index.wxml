@@ -1,2 +1,14 @@
 <!--pages/profile/index.wxml-->
-<text>pages/profile/index.wxml</text>
+
+<!-- 1.我的个人信息 -->
+<w-profile-info />
+
+<!-- 2.我的消费资料 -->
+<w-my-resources resourceType="{{resourceType}}"/>
+
+<!-- 3.列表选项 -->
+<w-intro-list listTitle="我的消息" listIcon="/assets/listIcon/profile_xx.png" />
+<w-intro-list listTitle="积分商城" listIcon="/assets/listIcon/profile_jf.png" />
+<w-intro-list listTitle="会员中心" listIcon="/assets/listIcon/profile_hy.png" />
+<w-intro-list listTitle="我的订单" listIcon="/assets/listIcon/profile_dd.png" />
+<w-intro-list listTitle="下载APP" listIcon="/assets/listIcon/profile_xz.png" />

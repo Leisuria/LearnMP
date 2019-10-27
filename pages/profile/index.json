@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "w-intro-list": "/components/w-intro-list/index",
+    "w-profile-info": "./childCpns/w-profile-info/index",
+    "w-my-resources": "./childCpns/w-my-resources/index"
+  },
+  "navigationBarTitleText": "我的"
 }

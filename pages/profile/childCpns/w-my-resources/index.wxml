@@ -1,0 +1,10 @@
+<!--pages/profile/childCpns/w-my-resources/index.wxml-->
+<view class="myResources">
+  <block wx:for="{{resourceType}}" wx:key="{{index}}">
+    <view class="resource">
+      <view class="number">
+        <text>{{item.num}}</text>{{item.one}}</view>
+      <view class="resourceTitle">{{item.type}}</view>
+    </view>
+  </block>
+</view>

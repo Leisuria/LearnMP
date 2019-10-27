@@ -1,0 +1,64 @@
+/* pages/profile/childCpns/w-profile-info/index.wxss */
+.myInfo{
+  background-color: #9055A2;
+  height: 240rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30rpx;
+}
+.avatar > image{
+  width: 144rpx;
+  height: 144rpx;
+  border-radius: 50%;
+  background-color: #F7F6F7;
+  border: 1rpx solid #F7F6F7
+}
+
+.avatar .nameInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  justify-content: center;
+}
+.nameInfo .name{
+  font-size: 36rpx;
+  color: #fff;
+  background-color: transparent;
+  margin-bottom: 30rpx;
+  line-height: 36rpx;
+  outline: none;
+  padding-left: 0rpx;
+  margin-left: 0rpx;
+}
+.nameInfo .name::after{
+  border: none;
+}
+.nameInfo .phoneImg{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+  /* background-color: #F7F6F7; */
+}
+.nameInfo .phone{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 30rpx;
+  font-size: 24rpx;
+  opacity: 0.6;
+}
+
+.enterBtn{
+  padding-right: 30rpx;
+}
+.enterBtn > image{
+  width: 40rpx;
+  height: 40rpx;
+}

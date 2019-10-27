@@ -1,0 +1,23 @@
+/* components/w-intro-list/index.wxss */
+.list{
+  height: 96rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #2B1D30;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #f7f6f7;
+}
+.list .icon{
+  margin-left: 30rpx;
+  /* background-color: #f7f6f7; */
+  margin-right: 20rpx;
+  /* line-height: 44rpx; */
+  height: 48rpx;
+}
+
+.iconImg{
+  width: 48rpx;
+  height: 48rpx;
+  /* line-height: 44rpx; */
+}

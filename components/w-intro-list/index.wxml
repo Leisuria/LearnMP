@@ -1,0 +1,7 @@
+<!--components/w-intro-list/index.wxml-->
+<view class="list">
+  <view class="icon">
+    <image class="iconImg" src="{{listIcon}}"></image>
+  </view>
+  {{listTitle}}
+</view>

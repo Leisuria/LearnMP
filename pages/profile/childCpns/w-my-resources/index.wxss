@@ -1,0 +1,29 @@
+/* pages/profile/childCpns/w-my-resources/index.wxss */
+.myResources{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  height: 160rpx;
+  align-items: center;
+  border-bottom: 20rpx solid #f7f6f7;
+}
+
+.resource{
+  flex: 1;
+  text-align: center;
+  border-right: 1rpx solid #f7f6f7;
+  font-size: 28rpx;
+  color: #B5ADB8;
+}
+.resource:last-child{
+  border-right: none;
+}
+.number{
+  margin-bottom: 10rpx;
+}
+.number > text{
+  font-size: 36rpx;
+  color: #FF699C;
+  font-weight: 800;
+  margin-right: 5rpx;
+}
