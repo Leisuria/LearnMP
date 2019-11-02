@@ -1,1 +1,17 @@
 /* pages/category/index.wxss */
+/* 1.侧边一级菜单筛选 */
+.category {
+  height: 100%;
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.w-menu{
+  /* position: fixed; */
+  width: 30%;
+}
+
+/* 2.右侧内容区域 */
+.w-content{
+  width: 70%;
+}

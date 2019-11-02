@@ -1,2 +1,28 @@
 <!--pages/cart/index.wxml-->
-<text>pages/cart/index.wxml</text>
+<view class="content">
+  <view class="left">
+    <scroll-view class="scroll-1" scroll-y>
+
+      <view class="item red"></view>
+      <view class="item yellow"></view>
+      <view class="item orange"></view>
+      <view class="item red"></view>
+
+    </scroll-view>
+  </view>
+
+  <view class="right">
+    <scroll-view class="scroll-2" scroll-y>
+      <view class="sub">
+        <view class="item blue"></view>
+        <view class="item green"></view>
+        <view class="item pink"></view>
+        <view class="item blue"></view>
+        <view class="item green"></view>
+        <view class="item pink"></view>
+      </view>
+
+
+    </scroll-view>
+  </view>
+</view>

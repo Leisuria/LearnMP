@@ -1,0 +1,20 @@
+/* pages/category/childCpns/w-menu/index.wxss */
+.menu{
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  font-size: 28rpx;
+  background-color: #f7f6f7;
+}
+.item{
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
+
+.active{
+  color: #9055A2;
+  background-color: #fff;
+  border-left: 6rpx solid #9055A2;
+  font-weight: 800;
+}

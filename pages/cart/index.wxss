@@ -1,1 +1,62 @@
 /* pages/cart/index.wxss */
+.content{
+  /* height: 50%; */
+  display: flex;
+  /* width: 100%; */
+}
+
+
+.content .left{
+  width: 30%;
+  /* position: fixed; */
+}
+
+.content .right{
+  /* position: relative; */
+  /* right: -30%; */
+  width: 70%;
+}
+
+
+.scroll-1{
+  position: fixed;
+  height: 100%;
+
+}
+
+.scroll-2{
+  height: 100%;
+}
+
+.sub{
+  display: flex;
+  flex-direction: column;
+}
+.item{
+  height: 400rpx;
+  width: 100%;
+}
+
+.red{
+  background-color: rebeccapurple;
+}
+
+.yellow{
+  background-color: yellowgreen;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.blue{
+  background-color: blueviolet;
+}
+
+.green{
+  background-color: green;
+}
+
+.pink{
+  background-color: pink;
+}

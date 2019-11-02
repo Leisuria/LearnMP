@@ -1,2 +1,9 @@
 <!--pages/category/index.wxml-->
-<text>pages/category/index.wxml</text>
+<view class="category">
+  <w-menu class="w-menu"
+          menus="{{menus}}"
+          bind:menuClick="menuClick" />
+
+  <w-content class="w-content"
+             subcategories="{{menusData[currentIndex].subcategories}}" />
+</view>
