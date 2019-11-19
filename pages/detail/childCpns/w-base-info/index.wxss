@@ -1,0 +1,60 @@
+/* pages/cart/childCpns/w-base-info/index.wxss */
+/* 1. base-info 信息 */
+.base-info{
+  padding: 30rpx;
+  border-bottom: 20rpx solid #F7F6F7;
+}
+/* 1.1 价格信息 */
+.price-info{
+  display: flex;
+  flex-direction: column;
+}
+.now-price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.new-price{
+  /* float: left; */
+  /* display: inline-block; */
+  font-size: 36rpx;
+  font-weight: 800;
+  color: #FF699C;
+}
+.discount{
+  /* float: right; */
+  /* display: inline-block; */
+  font-size: 28rpx;
+  height: 40rpx;
+  padding: 4rpx 16rpx;
+  background-color: #FF699C;
+  border-radius: 40rpx;
+  color: #FFF;
+}
+
+.old-price{
+  margin-top: 8rpx;
+  color:#B5ADB8;
+  font-size: 28rpx;
+  text-decoration: line-through;
+}
+
+/* 1.2标题信息 */
+.title{
+  margin-top: 10rpx;
+  color: #2B1D30;
+  font-size: 30rpx;
+  font-weight: 800;
+}
+
+/* 1.3销售信息 */
+.sell-info{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sell-item{
+  font-size: 28rpx;
+  color: #B5ADB8;
+}

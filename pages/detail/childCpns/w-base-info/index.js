@@ -1,12 +1,12 @@
-// components/w-swiper/index.js
+// pages/cart/childCpns/w-base-info/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    images:{
-      type: Array,
-      value: []
+    baseInfo:{
+      type: Object,
+      value: {}
     }
   },
 
@@ -14,7 +14,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    defDiscont : "暂无折扣"
   },
 
   /**

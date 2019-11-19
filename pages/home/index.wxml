@@ -2,7 +2,7 @@
 
 
 <!-- 1.展示轮播图 -->
-<w-swiper list="{{banners}}"/>
+<w-swiper images="{{banners}}"/>
 
 <!-- 2.展示推荐数据 -->
 <w-recommend recommends="{{recommends}}" bind:imageLoad="handleImageLoad"/>
@@ -22,4 +22,4 @@
 
 
 <!-- 6.回到顶部 -->
-<w-back-top wx:if="{{showBackTop}}" />
+<w-back-top wx:if="{{showBackTop}}" class="back-top" />

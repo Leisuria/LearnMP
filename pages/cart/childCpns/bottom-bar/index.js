@@ -1,12 +1,18 @@
-// components/w-swiper/index.js
+// pages/cart/childCpns/bottom-bar/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    images:{
-      type: Array,
-      value: []
+    selected: {
+      type: Boolean,
+      value: true
+    },
+    price: {
+      type: Number
+    },
+    counter: {
+      type: Number
     }
   },
 

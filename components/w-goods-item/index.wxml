@@ -1,5 +1,5 @@
 <!--components/w-goos-item/index.wxml-->
-<view class="goods-item">
+<view class="goods-item" bind:tap="itemClick">
   <view class="iamge-box">
     <image class="image" src="{{item.show.img}}" mode="aspectFill"></image>
   </view>

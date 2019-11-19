@@ -1,0 +1,20 @@
+<!--pages/cart/childCpns/w-shop-info/index.wxml-->
+<view class="shop-info">
+    <view class="top">
+      <view class="name-info">
+        <image src="{{shopInfo.logo}}"></image>
+        <view class="title-info">
+          <view class="title">{{shopInfo.title}}</view>
+          <view class="level">{{shopInfo.level}}级</view>
+        </view>
+      </view>
+    </view>
+    <view class="grade-info sell-item">
+      <block wx:for="{{shopInfo.score}}" wx:key="{{index}}">
+        <view class="grade-item">
+          <view class="grade-name">{{item.name}}</view>
+          <view class="grade-score {{item.isBetter ? 'good' : 'less'}}">{{item.score}}</view>
+        </view>
+      </block>
+    </view>
+  </view>

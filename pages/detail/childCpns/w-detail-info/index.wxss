@@ -1,0 +1,34 @@
+/* pages/cart/childCpns/w-detail-info/index.wxss */
+
+.header {
+  position: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* padding: 30rpx 0; */
+  /* border-bottom: 1rpx solid #F7F6F7; */
+  background-color: #F1E7F7;
+}
+
+.header .desc{
+  /* margin: 0 auto; */
+  padding: 20rpx 20rpx;
+  font-size: 28rpx;
+  color: #2B1D30;   
+}
+
+.content {
+  text-align: center;
+}
+.content .title {
+  /* margin: 0 auto; */
+  font-size: 28rpx;
+  /* font-weight: 800; */
+  color: #B5ADB8;
+  padding: 20rpx 0;
+}
+
+.content image {
+  width: 100%;
+}

@@ -1,13 +1,10 @@
-// components/w-swiper/index.js
+// pages/cart/childCpns/w-bottom-bar/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    images:{
-      type: Array,
-      value: []
-    }
+
   },
 
   /**
@@ -21,6 +18,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    onAddCart() {
+      this.triggerEvent("addcart",{},{})
+    }
   }
 })

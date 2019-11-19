@@ -1,0 +1,20 @@
+<!--pages/detail/index.wxml-->
+<scroll-view class="detail">
+
+  <w-swiper class="d-swiper" images="{{bannerImage}}" />
+
+  <w-base-info baseInfo="{{baseInfo}}" />
+
+  <w-comment commentInfo="{{commentInfo}}" />
+
+  <w-shop-info shopInfo="{{shopInfo}}" />
+
+  <w-detail-info detailInfo="{{detailInfo}}" />
+
+  <w-param-info paramInfo="{{paramInfo}}" />
+
+  <w-bottom-bar class="bottom-bar" bind:addcart="onAddCart" />
+
+  <w-back-top wx:if="{{showBackTop}}" class="back-top"/>  
+
+</scroll-view>

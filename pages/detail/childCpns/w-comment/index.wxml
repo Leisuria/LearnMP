@@ -1,0 +1,29 @@
+<!--pages/cart/childCpns/w-comment/index.wxml-->
+<view class="comment-info">
+  <view class="header">
+    <view class="header-title">
+      <image class="title-icon" src="/assets/common/comment_icon.png"></image>
+      <view class="title">宝贝评价</view>
+    </view>
+    <view class="more">
+      <text>查看更多</text>
+      <image class="r-arrow" src="/assets/common/r_arrow_p.png"></image>
+    </view>
+  </view>
+  <view class="user">
+    <view class="user-info">
+      <image src="{{commentInfo.user.avatar}}"></image>
+      <view class="name">{{commentInfo.user.uname}}</view>
+    </view>
+    <view class="time">{{commentInfo.created}}</view>
+  </view>
+  <view class="style">
+    <text>{{commentInfo.style}}</text>
+  </view>
+  <view class="comment">{{commentInfo.content}}</view>
+  <view class="picture">
+    <block wx:for="{{commentInfo.images}}" wx:key="index">
+      <image src="{{item}}" mode="aspectFill" />
+    </block>
+  </view>
+</view>

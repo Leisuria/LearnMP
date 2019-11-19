@@ -1,0 +1,17 @@
+<!--pages/cart/childCpns/w-base-info/index.wxml-->
+<view class="base-info">
+    <view class="price-info">
+      <view class="now-price">
+        <view class="new-price">{{baseInfo.newPrice}}</view>
+        <view class="discount">{{baseInfo.discount ? baseInfo.discount : defDiscont}}</view>
+      </view>
+      <view class="old-price">{{baseInfo.oldPrice}}</view>
+    </view>
+    <view class="title">{{baseInfo.title}}</view>
+
+    <view class="sell-info">
+      <block wx:for="{{baseInfo.columns}}" wx:key="{{index}}">
+        <view class="sell-item">{{item}}</view>
+      </block>
+    </view>
+  </view>

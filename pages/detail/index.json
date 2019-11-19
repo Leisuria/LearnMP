@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "w-swiper": "/components/w-swiper/index",
+    "w-back-top": "/components/w-back-top/index",
+    "w-base-info": "./childCpns/w-base-info/index",
+    "w-comment": "./childCpns/w-comment/index",
+    "w-param-info": "./childCpns/w-param-info/index",
+    "w-shop-info": "./childCpns/w-shop-info/index",
+    "w-detail-info": "./childCpns/w-detail-info/index",
+    "w-bottom-bar": "./childCpns/w-bottom-bar/index"
+  },
+  "navigationBarTitleText": "商品详情"
+}

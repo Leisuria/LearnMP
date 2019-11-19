@@ -1,0 +1,88 @@
+/* pages/cart/childCpns/w-shop-info/index.wxss */
+/* 2.shop-info 信息 */
+.shop-info{
+  padding: 30rpx;
+  border-bottom: 20rpx solid #F7F6F7;
+}
+
+/* 2.1 店铺名称信息 */
+.top{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.name-info{
+  display: flex;
+  align-items: center;
+}
+
+.name-info image{
+  width: 96rpx;
+  height: 96rpx;
+  border: 1rpx solid #F7F6F7;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.title-info{
+  display: flex;
+  flex-direction: column;
+}
+.title-info .title{
+  font-weight: normal;
+  font-size: 30rpx;
+  color: #2B1D30;
+  margin-bottom: 10rpx;
+}
+.title-info .level{
+  width: 90rpx;
+  font-size: 28rpx;
+  background-color: #F7F6F7;
+  /* height: 32rpx; */
+  padding: 4rpx 8prx;
+  color: #B5ADB8;
+  /* font-weight: 800; */
+  text-align: center;
+  border-radius: 36rpx;
+}
+
+/* 2.2店铺评分信息 */
+.grade-info{
+  display: flex;
+  margin-top: 40rpx;
+  justify-content: space-between;
+}
+
+.sell-item{
+  /* flex: 1; */
+  text-align: center;
+}
+
+.grade-item{
+  border-right: 1rpx solid #F7F6F7;
+  display: flex;
+  padding-right: 40rpx;
+  font-size: 28rpx;
+  color: #B5ADB8;
+}
+.grade-item:last-child{
+  padding-right: 0;
+  border: none;
+}
+.grade-name{
+  margin-right: 16rpx;
+}
+.grade-score{
+  /* background-color: #F7F6F7; */
+  /* border-radius: 30rpx; */
+  /* padding: 4rpx 10rpx; */
+  /* height: 30rpx;
+  width: 30rpx; */
+  font-weight: 800;
+}
+.good{
+  color: #FF699C;
+}
+.less{
+  color: #389a7f;
+}

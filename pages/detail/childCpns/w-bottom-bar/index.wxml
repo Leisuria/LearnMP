@@ -1,0 +1,26 @@
+<!--pages/cart/childCpns/w-bottom-bar/index.wxml-->
+<view class="bottom-bar">
+  <view class="shop-func bar-item">
+    <view class="left-func shop">
+      <image src="/assets/detail/d-dianpu-act.png"></image>
+      <view>店铺</view>
+    </view>
+    <view class="left-func">
+      <image src="/assets/detail/d-kefu.png"></image>
+      <view>客服</view>
+    </view>
+    <view class="left-func">
+      <image src="/assets/detail/d-shoucang.png"></image>
+      <view>收藏</view>
+    </view>
+  </view>
+
+  <view class="buy-func bar-item">
+    <view class="right-func">
+      <view class="r-item cart" bind:tap="onAddCart">加入购物车</view>
+    </view>
+    <view class="right-func">
+      <view class="r-item buy">购买</view>
+    </view>
+  </view>
+</view>

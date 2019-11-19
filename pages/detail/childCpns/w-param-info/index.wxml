@@ -1,0 +1,30 @@
+<!--pages/cart/childCpns/w-param-info/index.wxml-->
+<view class="param-info">
+    <view class="header">
+      <view class="title">—— {{paramInfo.key}} ——</view>
+    </view>
+    <!-- 1.商品尺寸 -->
+    <view class="size">
+      <block wx:for="{{paramInfo.sizes}}" wx:for-item="xitem" wx:for-index="xindex" wx:key="xindex">
+        <view class="size-table">
+          <block wx:for="{{xitem}}" wx:for-item="yitem" wx:for-index="yindex" wx:key="yindex">
+            <view class="size-row row">
+              <block wx:for="{{yitem}}" wx:for-item="zitem" wx:for-index="zindex" wx:key="zindex">
+                <view class="size-item">{{zitem}}</view>
+              </block>
+            </view>
+          </block>
+        </view>
+      </block>
+    </view>
+
+    <!-- 2.商品资料 -->
+    <view class='info'>
+      <block wx:for="{{paramInfo.infos}}" wx:key="index">
+        <view class="info-row row">
+          <view class='key'>{{item.key}}</view>
+          <view class='value'>{{item.value}}</view>
+        </view>
+      </block>
+    </view>
+  </view>

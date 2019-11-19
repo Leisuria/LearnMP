@@ -1,12 +1,12 @@
-// components/w-swiper/index.js
+// components/w-check-icon/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    images:{
-      type: Array,
-      value: []
+    isChecked:{
+      type: Boolean,
+      value: false
     }
   },
 
@@ -16,7 +16,7 @@ Component({
   data: {
 
   },
-
+  externalClasses: ["icon"],
   /**
    * 组件的方法列表
    */

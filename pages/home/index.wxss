@@ -4,3 +4,9 @@
   left: 0;
   right: 0;
 }
+
+.back-top{
+  position: fixed;
+  bottom: 60rpx;
+  right: 40rpx;
+}
